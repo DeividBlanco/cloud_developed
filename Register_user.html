@@ -1,0 +1,47 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html>
+
+<body>
+<div class="container">
+	<div class="d-flex justify-content-center h-100">
+		<div class="card">
+			<div class="card-header">
+				<h3>REGISTRA TU USUARIO</h3>
+				<div class="d-flex justify-content-end social_icon">
+					<span><i class="fab fa-facebook-square"></i></span>
+					<span><i class="fab fa-google-plus-square"></i></span>
+					<span><i class="fab fa-twitter-square"></i></span>
+				</div>
+			</div>
+			<div class="card-body">
+				<form>
+					<div class="mb-3">
+						<br>
+						<label for="">Usuario Nuevo: </label>
+						<input type="email" class="form-control" id="edtuser"placeholder="Email">
+						
+					</div>
+					<div class="mb-3">
+						<label for="">Contraseña: </label>
+						<input type="password" class="form-control" id="edtpassword" placeholder="Ingrese clave">
+					</div>
+					<div class="d-grid- gap-2">
+						<input type="submit" id="Loginbtn2" value="Crear usuario" onclick="register()" class="btn btn-primary">
+						<input type="submit" id="atrasbtn2" value="Atras" class="btn btn-secundary" onclik="login()">
+					</div>
+				</form>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<script src=""></script>
+<script type="module" src="js/index.js"></script>
+</body>
+</html>

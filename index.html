@@ -1,0 +1,71 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+   <!--Made with love by Mutiullah Samim -->
+   
+	<!--Bootsrap 4 CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!--Fontawesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!--Custom styles-->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<div class="container">
+	<div class="d-flex justify-content-center h-100">
+		<div class="card">
+			<div class="card-header">
+				<h3>INICIO DE SESION</h3>
+				<div class="d-flex justify-content-end social_icon">
+					<span><i class="fab fa-facebook-square"></i></span>
+					<span><i class="fab fa-google-plus-square"></i></span>
+					<span><i class="fab fa-twitter-square"></i></span>
+				</div>
+			</div>
+			<div class="card-body">
+				<form>
+					<div class="mb-3">
+						<br>
+						<label for="">Usuario: </label>
+						<input type="email" class="form-control" id="edtuser"placeholder="Email">
+						
+					</div>
+					<div class="mb-3">
+						<label for="">Contraseña: </label>
+						<input type="password" class="form-control" id="edtpassword" placeholder="Ingrese clave">
+					</div>
+					<div class="d-grid- gap-2">
+						<input type="submit" id="Loginbtn" value="Iniciar sesion" onclick="login2()" class="btn btn-primary">
+						<input type="submit" id="atrasbtn" value="Atras" class="btn btn-secundary" onclik="alert('Hello World!')">
+					</div>
+				</form>
+			</div>
+			<div class="card-footer">
+				<div class="d-flex justify-content-center links">
+					No tienes una cuenta?<a href="plantillas/Register_user.html">Registrarse</a>
+
+
+				</div>
+				<div class="d-flex justify-content-center">
+					<a href="#">Olvidaste tu contraseña?</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&#39; rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald&#39; rel='stylesheet' type='text/css'>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script&gt;
+<script src=""></script>
+<script type="module" src="./js/registrer_user.js"></script>
+</body>
+</html>
